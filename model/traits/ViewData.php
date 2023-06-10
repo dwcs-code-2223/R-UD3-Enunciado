@@ -14,17 +14,7 @@ trait ViewData {
 
     private $status = Util::NO_OPERATION;
 
-     ## add types
-     private array $restaurantes;  
-
-
-     public function getRestaurantes(){
-         return $this->restaurantes;
  
-     }
-     public function setRestaurantes(array $restaurantes):void{
-         $this->restaurantes = $restaurantes;
-     }
 
     public function getStatus() {
         return $this->status;
